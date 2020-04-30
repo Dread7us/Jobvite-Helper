@@ -1,0 +1,17 @@
+{
+  "name": "jobvite helper",
+  "version": "0.1",
+  "private": true,
+  "description": "Used to assist in various Jobvite Slack channels.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Kerrick McGowan",
+  "license": "NA",
+  "dependencies": {
+    "@slack/bolt": "^2.0.1",
+    "node-fetch": "^2.6.0"
+  }
+}
